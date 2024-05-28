@@ -51,6 +51,7 @@ return {
     -- ft = 'md',
     dependencies = { 'luarocks.nvim' },
     opts = {
+      tmux_show_only_in_active_window = true,
       integrations = {
         markdown = {
           resolve_image_path = function(document_path, image_path, fallback)
